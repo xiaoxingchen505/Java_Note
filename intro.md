@@ -31,13 +31,15 @@ public class TestScanner{
         int a = sc.nextInt();
         int b = sc.nextInt();
 
+        // 还可以用 boolean hasNext() 来判断是否还有其他的单词输入
+
         System.out.println("a+b =" + (a + b));
     }
 }
 ```
 
 
-## if,while,for语句语法
+## if,while,for,do while语句语法
 ```java
 
 if(money > price){
@@ -48,6 +50,61 @@ while( i<= 10){
     System.out.println('还我钱');
     i = i+1
 }
+
+for (int i=10; int>0; i--){
+
+
+}
+
+do {
+    i++
+}
+while (i<10)
+```
+<br>
+<br>
+
+## switch 
+```java
+switch (n){
+
+    case 1:
+        // 可以加任意内容
+        break;
+    case 2:
+        break;
+    default:
+        break;
+}
 ```
 
-###
+<br>
+<br>
+
+## 逻辑运算符
+|符号|comment|
+|-----|----|
+|&& |并且,左右两端同时为真，最后结果才能是真.
+|\|\| |或者,左右两端有一个是真，结果就是真.
+|! |非，非真即为假，非假为真
+
+<br>
+<br>
+
+
+## PrintWriter 基于字符的输出流,可以输出字符或字符串整型等数据。输出的目标可以是磁盘文件、其他输出流。
+```java
+PrintWriter wr = response.getWriter();
+
+// 1. print方法可以将各种类型的数据转换成字符串的形式输出。
+wr.print(100);
+
+// 2. 重载的write方法只能输出字符、字符数组、字符串等与字符相关的数据。
+wr.write("上次访问的时候 : "+100);   
+
+
+// 注: scanner里的文件地址要加上Path.of("myfile.txt")，还要在类边上加上throw IOException
+PrintWriter out = new PrintWriter("myfile.txt", StandardCharsets.UTF_8)
+```
+
+

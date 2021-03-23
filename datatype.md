@@ -41,6 +41,7 @@
 ```java
 int a = (double) b
 ```
+如果一个大的数据类型和一个小的数据类型进行计算，会把小的数据类型转化成大的数据类型，再进行计算。
 
 ## 使用BigDecimal解决计算精度问题
 类似float和double类型的数据，在加减乘除的时候，会有精度问题。可以用BigDecimal解决
@@ -55,5 +56,63 @@ int a = (double) b
         b = b.setScale(2, BigDecimal.ROUND_HALF_UP);
         System.out.println(a.subtract(b).doubleValue());
     }
+
+```
+
+## 数组
+```java
+// 几种初始化方法，最好用第一种
+int[] arr1 = new int[5];
+
+int[] arr2 = {1,2,3,4};
+
+int[] arr3 = new int[]{1,2,3,4};
+
+//修改方法跟python类似
+arr3[2] = 5;
+
+//数组的长度
+System.out.println(arr3.length);
+```
+## 字符串
+
+Java中的字符串并没有内置字符串数据类型，是在标准Java标准库中提供了一个预定义类，很自然地叫做String.
+```java
+String greeting = 'Hello';
+```
+
+### 子串
+
+string类的substring方法可以从一个较大的字符串提取一个子串.
+
+```java
+string greeting = 'hello';
+string s = greeting.substring(0,3);
+```
+
+
+### 拼接
+
+跟Python一样，支持用＋来拼接
+```java
+String a = "a";
+String b = "b";
+string sum_string = a+b;
+```
+
+### 判断字符串是否相等
+
+可以用equals方法检测两个字符串是否相等
+```java
+
+a.equals(b)
+
+// 也可以是这种形式
+
+"hello".equals(greeting)
+
+// 忽略大小写的检测方法
+
+"Hello".equalsIgnoreCase("hello")
 
 ```
