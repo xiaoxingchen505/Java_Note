@@ -2,9 +2,10 @@ package com.example.demo.service.impl;
 
 import com.example.demo.service.UserService;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 
-@Component
+@Service
 public class UserServiceNormal implements UserService {
 
     @Override

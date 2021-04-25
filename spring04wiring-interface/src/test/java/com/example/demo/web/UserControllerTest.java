@@ -1,27 +1,21 @@
-package com.example.demo.service;
-
-
+package com.example.demo.web;
 
 import com.example.demo.AppConfig;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import javax.annotation.Resource;
-
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes= AppConfig.class)
-public class UserServiceTest {
+public class UserControllerTest {
 
-/*    @Autowired
-    @Qualifier("userServiceFestival")*/
-
-    @Resource(name="userServiceFestival")
-    private UserService userService;
+    @Autowired
+    private UserController userController;
 
     @Test
     public void testAdd(){
-        userService.add();
+        userController.add();
     }
 }
