@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -53,7 +53,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="JUnit.CompactDiscTest.test01">
+  <component name="RunManager" selected="JUnit.AppTest.test">
     <configuration name="ApplicationSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ApplicationSpring" />
       <module name="spring06xml" />
@@ -68,6 +68,22 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring06xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.soundsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.soundsystem" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.soundsystem.AppTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,6 +121,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest.test" />
         <item itemvalue="JUnit.CompactDiscTest.test01" />
         <item itemvalue="JUnit.CompactDiscTest" />
         <item itemvalue="Application.ApplicationSpring" />
@@ -121,7 +138,7 @@
       <updated>1619531706813</updated>
       <workItem from="1619531707925" duration="1534000" />
       <workItem from="1619534235811" duration="8094000" />
-      <workItem from="1619577245706" duration="4371000" />
+      <workItem from="1619577245706" duration="4674000" />
     </task>
     <servers />
   </component>
