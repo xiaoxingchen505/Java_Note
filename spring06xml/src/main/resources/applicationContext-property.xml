@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id ="music1" class ="com.example.demo.soundsystem.Music" >
+        <property name="title" value= "告白气球" />
+        <property name = 'duration' value = "215" />
+
+
+    </bean>
+
+    <bean id ="music2" class ="com.example.demo.soundsystem.Music" >
+        <property name="title" value= "爱情废柴" />
+        <property name = 'duration' value = "305" />
+
+    </bean>
+</beans>
