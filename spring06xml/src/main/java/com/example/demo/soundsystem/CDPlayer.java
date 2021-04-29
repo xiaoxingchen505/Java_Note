@@ -20,4 +20,13 @@ public class CDPlayer {
         System.out.println("CDPlayer"+this.toString());
         cd.play();
     }
+
+    public CompactDisc getCd() {
+        return cd;
+    }
+
+    public void setCd(CompactDisc cd) {
+        this.cd = cd;
+        System.out.println("--在"+ this.toString() + "中注入CD");
+    }
 }

@@ -36,4 +36,31 @@ public class CompactDisc {
 
 
     }
+
+    public void setTitle(String title) {
+        this.title = title;
+        System.out.println("--在"+ this.toString() + "中注入title");
+    }
+
+    public void setArtist(String artist) {
+        this.artist = artist;
+        System.out.println("--在"+ this.toString() + "中注入artists");
+    }
+
+    public void setTracks(Music[] tracks) {
+        this.tracks = tracks;
+        System.out.println("--在"+ this.toString() + "中注入tracks");
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getArtist() {
+        return artist;
+    }
+
+    public Music[] getTracks() {
+        return tracks;
+    }
 }

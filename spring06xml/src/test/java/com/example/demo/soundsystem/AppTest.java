@@ -9,9 +9,14 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 @ContextConfiguration("classpath:applicationContext-property.xml")
 public class AppTest {
 
+
+    @Autowired
+    private CDPlayer CDPlayer1;
+
     @Test
     public void test(){
 
+        CDPlayer1.play();
     }
 
 
