@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27448971-bd6f-4a5b-99cb-f01e2f28be4f" name="Default Changelist" comment="" />
+    <list default="true" id="42313f69-be2d-4e00-9861-ba8dee26bac6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
@@ -21,14 +22,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -36,7 +29,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1rkt2HKvl87TsffhPhPFEuHX5eQ" />
+  <component name="ProjectId" id="1rtkTiQ9R1ganZxgfwKODQbq1e1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -47,61 +40,90 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.test">
-    <configuration name="ApplicationSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ApplicationSpring" />
-      <module name="spring06xml" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring06xml" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.demo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Notepad3Test.test01">
+    <configuration name="Notepad2TestAutowired.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring07scope" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.soundsystem.*" />
+          <option name="PATTERN" value="com.example.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo.soundsystem" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.soundsystem.AppTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.Notepad2TestAutowired" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompactDiscTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring06xml" />
+    <configuration name="Notepad3Test.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring07scope" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.soundsystem.*" />
+          <option name="PATTERN" value="com.example.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo.soundsystem" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.soundsystem.CompactDiscTest" />
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.Notepad3Test" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotepadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring07scope" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.NotepadTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompactDiscTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring06xml" />
+    <configuration name="NotepadTestAutowired.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring07scope" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.soundsystem.*" />
+          <option name="PATTERN" value="com.example.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo.soundsystem" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.soundsystem.CompactDiscTest" />
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.NotepadTestAutowired" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotepadTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring07scope" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.NotepadTest" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -110,25 +132,26 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest.test" />
-        <item itemvalue="JUnit.CompactDiscTest.test01" />
-        <item itemvalue="JUnit.CompactDiscTest" />
-        <item itemvalue="Application.ApplicationSpring" />
+        <item itemvalue="JUnit.Notepad3Test.test01" />
+        <item itemvalue="JUnit.Notepad2TestAutowired.test01" />
+        <item itemvalue="JUnit.NotepadTest.test01" />
+        <item itemvalue="JUnit.NotepadTestAutowired.test01" />
+        <item itemvalue="JUnit.NotepadTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="27448971-bd6f-4a5b-99cb-f01e2f28be4f" name="Default Changelist" comment="" />
-      <created>1619531706813</created>
+      <changelist id="42313f69-be2d-4e00-9861-ba8dee26bac6" name="Default Changelist" comment="" />
+      <created>1619802783132</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1619531706813</updated>
-      <workItem from="1619531707925" duration="1534000" />
-      <workItem from="1619534235811" duration="8094000" />
-      <workItem from="1619577245706" duration="9110000" />
-      <workItem from="1619802763796" duration="2000" />
+      <updated>1619802783132</updated>
+      <workItem from="1619802784325" duration="2348000" />
+      <workItem from="1619805352287" duration="1714000" />
+      <workItem from="1619868525527" duration="5064000" />
+      <workItem from="1619896654694" duration="4000" />
     </task>
     <servers />
   </component>

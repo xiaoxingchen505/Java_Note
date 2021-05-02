@@ -65,3 +65,19 @@
 * @Autowired(required = false)
 * 表示注入的对象是可选的
   
+
+
+## Bean的作用域
+
+### 单例(singleton)
+* 在整个应用程序中，只创建bean的一个实例
+
+
+### 原型(Prototype)
+* 每次注入或通过Spring上下文获取的时候，都会创建一个实例
+
+### 会话(Session)
+* 在web应用中，为每个会话创建一个bean实例
+
+### 请求(request)
+* 在web应用中，为每个会话创建一个bean实例
